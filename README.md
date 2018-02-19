@@ -48,26 +48,39 @@ sudo apt-get install \
 Install Ceres Solver:
 
 sudo apt-get install libatlas-base-dev libsuitesparse-dev
+
 git clone https://ceres-solver.googlesource.com/ceres-solver
+
 cd ceres-solver
+
 mkdir build
+
 cd build
+
 cmake .. -DBUILD_TESTING=OFF -DBUILD_EXAMPLES=OFF
+
 make
+
 sudo make install
 
 Configure and compile COLMAP:
 
 cd path/to/colmap
+
 mkdir build
+
 cd build
+
 cmake ..
+
 make
+
 sudo make install
 
 Run COLMAP:
 
 colmap -h
+
 colmap gui
 
 
