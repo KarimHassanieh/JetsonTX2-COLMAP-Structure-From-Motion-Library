@@ -74,7 +74,7 @@ colmap gui
 Results on Jetson TX2
 ---------------------
 
-Results obtained when processing COLMAP on the KITTI benchmark dataset
+Results obtained when processing COLMAP on the KITTI benchmark dataset on Jetson TX2
 
 [//]: # (Image References)
 [image_0]: ./Results/kitti_result.png
