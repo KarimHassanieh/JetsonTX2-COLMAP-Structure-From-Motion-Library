@@ -1,5 +1,5 @@
-COLMAP STRUCTURE FROM MOTION LIBRARY ON JETSON TX2
-==================================================
+COLMAP SFM LIBRARY ON JETSON TX2
+=================================
 This repository allows to compile the COLMAP SFM Library on a Jetson TX2. Modifications to the source code have been done to be able to be able to sucucessfully compile the library on the Jetson Nvidia.
 
 
@@ -45,8 +45,8 @@ sudo apt-get install \
     qtbase5-dev \
     libqt5opengl5-dev
     
-Install Ceres Solver:
---------------------------
+Install Ceres Solver
+---------------------
 sudo apt-get install libatlas-base-dev libsuitesparse-dev
 
 git clone https://ceres-solver.googlesource.com/ceres-solver
@@ -63,7 +63,7 @@ make
 
 sudo make install
 
-Configure and compile COLMAP:
+Configure and compile COLMAP
 -----------------------------
 cd path/to/colmap
 
