@@ -1,6 +1,6 @@
-COLMAP ON JETSON TX2
-====================
-This repository allows to compile the COLMAP SFM Library on a Jetson TX2. Modification have been done to be able to be able to sucucessfully compile the library on the Jetson Nvidia.
+COLMAP STRUCTURE FROM MOTION LIBRARY ON JETSON TX2
+==================================================
+This repository allows to compile the COLMAP SFM Library on a Jetson TX2. Modifications to the source code have been done to be able to be able to sucucessfully compile the library on the Jetson Nvidia.
 
 
 About
