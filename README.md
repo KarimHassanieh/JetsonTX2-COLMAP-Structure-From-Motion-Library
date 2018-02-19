@@ -46,7 +46,7 @@ sudo apt-get install \
     libqt5opengl5-dev
     
 Install Ceres Solver:
-
+--------------------------
 sudo apt-get install libatlas-base-dev libsuitesparse-dev
 
 git clone https://ceres-solver.googlesource.com/ceres-solver
@@ -64,7 +64,7 @@ make
 sudo make install
 
 Configure and compile COLMAP:
-
+-----------------------------
 cd path/to/colmap
 
 mkdir build
