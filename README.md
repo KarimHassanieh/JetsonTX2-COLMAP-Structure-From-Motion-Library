@@ -90,7 +90,7 @@ Results on Jetson TX2
 Results obtained when processing COLMAP on the KITTI benchmark dataset on Jetson TX2
 
 [//]: # (Image References)
-[image_0]: ./Results/kitti_result.png
+[image_0]: ./Results/resultImage.png
 
 ![alt text][image_0] 
 
